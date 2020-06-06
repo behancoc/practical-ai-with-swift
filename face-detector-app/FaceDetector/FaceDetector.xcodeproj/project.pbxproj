@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1FA983248B5B0B0070D1E3 /* Faces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1FA982248B5B0B0070D1E3 /* Faces.swift */; };
 		8B4D2BCE23F73A5100576F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D2BCD23F73A5100576F90 /* AppDelegate.swift */; };
 		8B4D2BD023F73A5100576F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D2BCF23F73A5100576F90 /* SceneDelegate.swift */; };
 		8B4D2BD323F73A5100576F90 /* FaceDetector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D2BD123F73A5100576F90 /* FaceDetector.xcdatamodeld */; };
@@ -16,6 +17,7 @@
 		8B4D2BDD23F73A5300576F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D2BDB23F73A5300576F90 /* LaunchScreen.storyboard */; };
 		8B4D2BE823F73A5300576F90 /* FaceDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D2BE723F73A5300576F90 /* FaceDetectorTests.swift */; };
 		8B4D2BF323F73A5300576F90 /* FaceDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D2BF223F73A5300576F90 /* FaceDetectorUITests.swift */; };
+		8B876797248B633800241596 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B876796248B633800241596 /* Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B1FA982248B5B0B0070D1E3 /* Faces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faces.swift; sourceTree = "<group>"; };
 		8B4D2BCA23F73A5100576F90 /* FaceDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D2BCD23F73A5100576F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B4D2BCF23F73A5100576F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		8B4D2BEE23F73A5300576F90 /* FaceDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D2BF223F73A5300576F90 /* FaceDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectorUITests.swift; sourceTree = "<group>"; };
 		8B4D2BF423F73A5300576F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B876796248B633800241596 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		8B4D2BCC23F73A5100576F90 /* FaceDetector */ = {
 			isa = PBXGroup;
 			children = (
+				8B876796248B633800241596 /* Views.swift */,
+				8B1FA982248B5B0B0070D1E3 /* Faces.swift */,
 				8B4D2BCD23F73A5100576F90 /* AppDelegate.swift */,
 				8B4D2BCF23F73A5100576F90 /* SceneDelegate.swift */,
 				8B4D2BD423F73A5100576F90 /* ContentView.swift */,
@@ -272,7 +278,9 @@
 			files = (
 				8B4D2BCE23F73A5100576F90 /* AppDelegate.swift in Sources */,
 				8B4D2BD023F73A5100576F90 /* SceneDelegate.swift in Sources */,
+				8B876797248B633800241596 /* Views.swift in Sources */,
 				8B4D2BD523F73A5100576F90 /* ContentView.swift in Sources */,
+				8B1FA983248B5B0B0070D1E3 /* Faces.swift in Sources */,
 				8B4D2BD323F73A5100576F90 /* FaceDetector.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
